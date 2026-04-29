@@ -1,0 +1,108 @@
+body{
+    background-color: whitesmoke;
+    height: 87vh;
+}
+
+hr{
+	border: none;
+    border-top: 2px dashed #555;
+  }
+
+.produtos{
+    height: auto;
+    background-color: white;
+    padding: 2vh;
+    padding-bottom: 0vh;
+    margin-top: 2vh;
+}
+
+.produtos img{
+    width: 100%;
+}
+
+.cardProduct{
+    background-color: white;
+    margin-bottom: 2vh;
+    padding: 1vh;
+    transition: 1s;
+}
+
+.cardProduct:hover{
+    box-shadow: 0 5px 15px #555;
+	transition: .5s;
+}
+
+.generoidadeSection{
+    background-color: white;
+    padding: 2vh;
+    margin-bottom: 2vh;
+}
+
+.generoidadeSection .col-4{
+    display: flex;
+    justify-content: center;
+}
+
+.generoidadeSection .todos, .homem, .mulher, .crianca
+{
+    position: relative;
+	width: 100%;
+	background: #ff351b;
+	outline: none;
+	padding: 13px 10px 7.5px;
+	border: none;
+	border-radius: 13px;
+	color: #000;
+	font-weight: 500;
+	font-size: 1em;
+    margin-bottom: 5px;
+	box-shadow: -3px 7px 10px rgba(210,0,0,9);
+	padding-top: 6px;
+	margin-top: 8px;
+	color: #fff;
+    transition: 1s;
+}
+
+.generoidadeSection .todos:hover, .homem:hover, .mulher:hover, .crianca:hover
+{
+    position: relative;
+	width: 100%;
+	background: #131313;
+	outline: none;
+	padding: 13px 10px 7.5px;
+	border: none;
+	border-radius: 13px;
+	color: #000;
+	font-weight: 500;
+	font-size: 1em;
+    margin-bottom: 5px;
+	box-shadow: -3px 7px 10px rgba(210,0,0,9);
+	padding-top: 6px;
+	margin-top: 8px;
+	color: #fff;
+    transition: .5s;
+}
+
+.generoidadeSection .equipa
+{
+    position: relative;
+	width: 100%;
+	outline: none;
+	padding: 13px 10px 7.5px;
+	background: #131313;
+	border: none;
+	border-radius: 13px;
+	color: #fff;
+	font-weight: 500;
+	font-size: 1em;
+    margin-bottom: 5px;
+	box-shadow: -3px 7px 10px #000;
+	padding-top: 6px;
+	margin-top: 8px;
+	color: #fff;
+    transition: 1s;
+}
+
+#sectionAlpine, #sectionAstMar, #sectionFerrari, #sectionHaas, #sectionKS, #sectionMcLaren, #sectionMercedes, #sectionRB, #sectionRedBull, #sectionWilliams {
+    scroll-margin-top: 85px;
+}

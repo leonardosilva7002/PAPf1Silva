@@ -1,0 +1,48 @@
+.divisaoF1Un{
+    width: 100%;
+    height: auto;
+	background: #ff351b;
+	outline: none;
+	border: none;
+    margin-top: 7vh;
+    margin-bottom: 10vh;
+    padding: 2vh 0vh;
+}
+
+.corpoDivF1Un{
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    width: 100%;
+    height: auto;
+    padding: 2vh 0vh;
+	background: #131313;
+	outline: none;
+	border: none;
+    color: white;
+}
+
+.imagemUnlocked{
+    min-height: 70vh;
+    border-radius: 13px;
+    background: center / cover no-repeat url("../IMAGES/Unlocked.jpg");
+}
+
+.mais
+{
+    position: relative;
+	width: 100%;
+	background: #ff351b;
+	outline: none;
+	padding: 13px 10px 7.5px;
+	border: none;
+	border-radius: 13px;
+	color: #000;
+	font-weight: 500;
+	font-size: 1em;
+    margin-bottom: 5px;
+	box-shadow: -3px 7px 10px rgba(210,0,0,9);
+	padding-top: 6px;
+	margin-top: 8px;
+	color: #fff;
+}

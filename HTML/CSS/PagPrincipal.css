@@ -1,0 +1,258 @@
+body{
+    background: whitesmoke;
+	height: 87vh;
+}
+
+.hero {
+	position: relative;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background: none; 
+    overflow: hidden; 
+	margin-bottom: 7vh;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: center / cover no-repeat url("../IMAGES/imagem2Main.jpg");
+    filter: brightness(30%);
+    z-index: 1;
+}
+
+/*.main {
+	position: relative; 
+	display: inline-block;
+	box-shadow: 0 5px 35px rgba(0,0,0);
+
+	background: center / cover no-repeat url("./IMAGES/F1MainFull.jpg");
+}
+
+.mainImage {
+	display: block; 
+	width: 100%; 
+	min-height: 100%; 
+	filter: brightness(30%);
+}*/
+
+.hero .content-overlay {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+	justify-content: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.content-overlay h1 {
+    font-size: 5rem;
+    margin: 0;
+    color: #ff351b;
+}
+
+.content-overlay p {
+    font-size: 1rem;
+    margin: 0.5rem 0 1rem;
+}
+
+.scroll-button {
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.scroll-button:hover {
+    background-color: #ff351b;
+	color: white;
+}
+
+.data{
+	background-color: #ff351b;
+	color: white;
+	padding: 5px;
+}
+
+.data pre{
+	margin-bottom: 0px;
+}
+
+.imgNoticia, .noticia{
+	background-color: white;
+}
+
+.imgNoticia img{
+	max-width: 100%;
+}
+
+.noticia{
+	padding: 2vh;
+	padding-bottom: 1vh;
+	text-align: justify;
+}
+
+.cardPrincipal
+{
+	position: relative;
+  	background: white;  
+	z-index: 10;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 3px;
+	border-radius: 25px;
+	box-shadow: 0 15px 35px rgba(0,0,0,9);
+	margin-bottom: 5vh;
+}
+
+.cardPrincipal .content
+{
+    position: relative;
+	padding: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.cardPrincipal .content h2, .cardSecundario .content h2, .cardSecundario .content p
+{
+	color: black;
+	text-align: center;
+}
+
+.cardSecundario
+{
+	position: relative;
+  	background: white;  
+	z-index: 10;
+	padding: 3px;
+	border-radius: 25px;
+	box-shadow: 0 15px 35px rgba(0,0,0,9);
+	margin-bottom: 5vh;
+}
+
+.cardSecundario .content{
+	position: relative;
+	padding: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.cardSecundario .pontos
+{
+	width: 100%;
+	position: relative;
+	padding: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.cardSecundario .pontos .piloto
+{
+	position: relative;
+	width: 100%;
+	background: white;
+	outline: none;
+	padding: 5px 5px 5px;
+	border-radius: 4px;
+	color: #000;
+	font-weight: 500;
+	font-size: 1em;
+    margin-bottom: 5px;
+	text-align: left;
+
+	display: grid;
+	grid-template-columns: repeat(2, 50%);
+	grid-template-rows: 100%;
+	grid-template-areas: "s1 s2";
+}
+
+.cardSecundario .pontos .piloto .pt
+{
+	background: lightgray;
+	display: flex;
+	border-radius: 4px;
+	width: 20%;
+	justify-items: center;
+	justify-content: center;
+
+	grid-area: s2;
+	justify-self: end;
+}
+
+.cardSecundario .pontos .mais
+{
+	position: relative;
+	width: 100%;
+	background: #ff351b;
+	outline: none;
+	padding: 13px 10px 7.5px;
+	border: none;
+	border-radius: 13px;
+	color: #000;
+	font-weight: 500;
+	font-size: 1em;
+    margin-bottom: 5px;
+	box-shadow: -3px 7px 10px rgba(210,0,0,9);
+	padding-top: 6px;
+	margin-top: 8px;
+	color: #fff;
+}
+
+.mateus
+{
+	position: relative;
+	width: 100%;
+	background: #ff351b;
+	outline: none;
+	padding: 13px 10px 7.5px;
+	border: none;
+	border-radius: 13px;
+	color: #000;
+	font-weight: 500;
+	font-size: 1em;
+    margin-bottom: 5px;
+	box-shadow: -3px 7px 10px rgba(210,0,0,9);
+	padding-top: 6px;
+	margin-top: 1px;
+	color: #fff;
+}
+
+.cardEquipas{
+	position: relative;
+  	background: white;  
+	z-index: 10;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 13px;
+	border-radius: 25px;
+	box-shadow: 0 15px 35px rgba(0,0,0,9);
+}
+
+.tituloEquips{
+	text-align: center;
+}
+
+.top1{
+	width: 100%;
+}

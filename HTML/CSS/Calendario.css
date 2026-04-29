@@ -1,0 +1,110 @@
+/*.vermelhoCalendario{
+    width: 100%;
+    background-color: #ff351b;
+    padding: 2vh 0vh;
+    margin-top: 5vh;
+}
+
+.corpoCalendario{
+    width: 100%;
+    height: auto;
+    background-color: #131313;
+    color: white;
+    padding: 5vh;
+}*/
+
+body{
+    background-color: whitesmoke;
+    height: 100vh;
+}
+
+a{
+    text-decoration: none;
+}
+
+.cardCal:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s;
+    cursor: pointer;
+    .pais{
+        transition: .2s;
+        background-color: #131313;
+        color: white;
+    }
+
+    .infCalendario{
+        color: white;
+        background-color: #131313;
+        transition: .2s;
+        box-shadow: 0px 7px 10px #131313;
+    }
+
+    .dias{
+        transition: .2s;
+        box-shadow: 0px 7px 10px #ff351b;
+    }
+
+    .n2 img{
+        box-shadow: 0px 0px 10px #ff351b;
+    }
+}
+
+.cardCal{
+    background-color: white;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-bottom: 2vh;
+    transition: transform 0.3s;
+}
+
+.dias, .img, .pais, .infCalendario{
+    height: auto;
+    transition: 1s;
+}
+
+.img, .pais, .infCalendario{
+    background-color: white;
+    color: black;
+}
+
+.dias{
+    padding: 5px;
+    background-color: #ff351b;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.dias p{
+    margin-bottom: 0px;
+}
+
+.pais{
+    padding: 0vh 1vh;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-areas: "n1 n2";
+    align-items: center;
+}
+.n2{
+    display: flex;
+    justify-content: end;
+}
+.n2 img{
+    max-width: 30%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #000000;
+}
+
+.infCalendario{
+    padding: 1vh;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.img{
+    padding: 0vh 1vh;
+}
+
+.img img{
+    max-width: 100%;
+}

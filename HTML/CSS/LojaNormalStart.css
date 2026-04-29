@@ -1,0 +1,341 @@
+/*body{
+    background-color: whitesmoke;
+}
+
+h3{
+    margin: 5px;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+}
+
+.equipa{
+    background-color: #fff;
+    color: white;
+    margin-top: 2vh;
+    transition: 1s;
+}
+
+.grid{
+    display: grid;
+	grid-template-columns: 80%, 20%;
+	grid-template-areas: "f1 f2";
+    background-color: #131313;
+    transition: 1s;
+
+    align-items: center;
+    justify-items: start;
+}
+
+.f2{
+    font-size: large;
+    justify-self: end;
+}
+
+.equipa:hover{
+    .grid{
+        background-color: #ff351b;
+        color: #fff;
+        transition: 0s;
+    }
+}
+
+.grid:hover{
+    background-color: #ff351b;
+    color: white;
+    transition: 0s;
+}*/
+body{
+    background: whitesmoke;
+	height: 87vh;
+}
+
+.hero {
+	position: relative;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background: none; 
+    overflow: hidden; 
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: center / cover no-repeat url("../IMAGES/preview.webp");
+    filter: brightness(30%);
+    z-index: 1;
+}
+
+.hero .content-overlay {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+	justify-content: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.content-overlay h1 {
+    font-size: 5rem;
+    margin: 0;
+    color: #ff351b;
+}
+
+.content-overlay p {
+    font-size: 1rem;
+    margin: 0.5rem 0 1rem;
+}
+
+.content-overlay button{
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.cardPrincipal{
+    background-color: white;
+    margin-bottom: 5vh;
+    border-radius: 5px;
+    transition: 1s;
+    padding-bottom: 1vh;
+}
+
+.titulo{
+    margin-top: 5vh;
+    margin-bottom: 2vh;
+    width: 100%;
+    text-align: center;
+}
+
+.tituloNasDivs{
+    width: 100%;
+    text-align: center;
+}
+
+.cardPrincipal:hover{
+    box-shadow: 0 5px 15px #000;
+	transition: .5s;
+}
+
+.cardPrincipal img{
+    max-width: 100%;
+}
+
+.botao{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardPrincipal button{
+    position: relative;
+	background: #ff351b;
+	outline: none;
+	padding: 13px 10px 7.5px;
+	border: none;
+	border-radius: 13px;
+	color: #000;
+	font-weight: 500;
+	font-size: 1em;
+    margin-bottom: 5px;
+	box-shadow: -3px 7px 10px rgba(210,0,0,9);
+	padding-top: 6px;
+	margin-top: 8px;
+	color: #fff;
+    transition: 1s;
+}
+
+.cardPrincipal button:hover{
+    position: relative;
+	background: #131313;
+	outline: none;
+	padding: 13px 10px 7.5px;
+	border: none;
+	border-radius: 13px;
+	color: #000;
+	font-weight: 500;
+	font-size: 1em;
+    margin-bottom: 5px;
+	box-shadow: -3px 7px 10px rgba(210,0,0,9);
+	padding-top: 6px;
+	margin-top: 8px;
+	color: #fff;
+    transition: .5s;
+}
+
+hr{
+	border: none;
+    border-top: 2px dashed #555;
+  }
+
+.cardEquip{
+    background-color: white;
+    padding: 1vh;
+    transition: 1s;
+    border-radius: 5px;
+    margin-bottom: 2vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardEquip:hover{
+	box-shadow: 0 15px 15px #555;
+	transition: .5s;
+    border-radius: 5px;
+}
+
+.cardEquip a{
+    text-decoration: none;
+    transition: 1s;
+    color: black;
+}
+
+.cardEquip a:hover{
+    transition: .5s;
+    color: #ff351b;
+}
+
+.vermelho{
+    width: 100%;
+    background-color: #ff351b;
+    padding: 2vh 0vh;
+}
+
+.corpo{
+    width: 100%;
+    height: auto;
+    background-color: #131313;
+    color: white;
+    padding-bottom: 3vh;
+}
+
+.categorias{
+    height: auto;
+    padding: 1vh;
+    padding-bottom: 3px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.categorias img{
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.categorias h2{
+    color: #000;
+}
+
+.divisao{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "d1 d2";
+}
+.d2{
+    justify-self: end;
+}
+
+.infLojaSuperior{
+    background-color: white;
+    border-radius: 13px;
+    color: #000;
+    height: auto;
+    min-height: 50vh;
+    margin-top: 5vh;
+    padding: 1vh;
+}
+
+.infLojaSuperior img{
+    max-width: 100%;
+}
+
+.imagem {
+	position: relative;
+    height: 48vh;
+    border-radius: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background: none; 
+    overflow: hidden; 
+}
+
+.imagem::before {
+    content: "";
+    border-radius: 13px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: center / cover no-repeat url("../IMAGES/LojaLembrancas.png");
+    filter: brightness(70%);
+    z-index: 1;
+}
+
+.mais
+{
+    position: relative;
+	width: 100%;
+	background: #ff351b;
+	outline: none;
+	padding: 13px 10px 7.5px;
+	border: none;
+	border-radius: 13px;
+	color: #000;
+	font-weight: 500;
+	font-size: 1em;
+    margin-bottom: 5px;
+	box-shadow: -3px 7px 10px rgba(210,0,0,9);
+	padding-top: 6px;
+	margin-top: 8px;
+	color: #fff;
+}
+
+.home{
+    max-width: 20px;
+}
+
+.imagemLoja {
+	position: relative;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background: none; 
+    overflow: hidden; 
+    background: top / cover no-repeat url("../IMAGES/ImagemLoja.avif");
+    margin-bottom: 1vh;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.areaButao{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#sectionComprar{
+    scroll-margin-top: 120px;
+}

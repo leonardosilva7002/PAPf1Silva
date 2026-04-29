@@ -1,0 +1,71 @@
+body{
+    background: whitesmoke;
+	height: 100vh;
+    margin: 0px;
+}
+
+img{
+	max-width: 100%;
+}
+
+table{
+	width: 100%;
+}
+
+.fundoPlt{
+	background-color: white;
+}
+
+.fundo{
+	background-color: white;
+	padding: 2vh;
+}
+
+.vermelhoPlt{
+	background-color: #ff351f;
+	padding: 2vh 0vh;
+}
+
+.corpoPlt{
+	background-color: #131313;
+	padding: 2vh;
+	color: white;
+}
+
+.numCty{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-areas: "n c";
+	align-items: center;
+}
+.c{ justify-self: end;}
+.c img{
+	width: 50px;
+	border-radius: 7px;
+	box-shadow: 0px 0px 10px #000;
+  }
+
+.biografia{
+	background-color: white;
+	padding: 1vh;
+	margin: 2vh 0vh;
+}
+
+.biografia h2{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 3vh;
+}
+
+.divisao{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-areas: "a1 a2";
+	align-items: center;
+}
+.a1{justify-self: center;}
+.borda{
+	padding: 2vh;
+	background-color: #ff351f;
+}
+.a2{text-align: justify;padding-right: 4vh;}

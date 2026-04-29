@@ -1,0 +1,88 @@
+body{
+    height: 87vh;
+    background-color: whitesmoke;
+}
+
+.vermelho{
+    width: 100%;
+    background-color: #ff351b;
+    padding: 2vh 0vh;
+    margin-top: 2vh;
+}
+
+.corpo{
+    width: 100%;
+    height: auto;
+    background-color: #131313;
+    color: white;
+    padding: 5vh;
+}
+
+.tabela{
+    background-color: white;
+    color: black;
+}
+
+.areaDados{
+    background-color: white;
+    padding: 1vh;
+    color: black;
+}
+
+.areaDados img{
+    max-width: 100%;
+    margin: 5px;
+}
+
+.fundoBranco{
+    background-color: white;
+    padding: 1vh;
+    color: black;
+}
+
+.titulo{
+    background-color: white;
+    padding: 1vh;
+    color: black;
+}
+
+h4{
+    margin: 0vh;
+}
+
+.mais
+{
+	position: relative;
+	width: 100%;
+	background: #ff351b;
+	outline: none;
+	padding: 13px 10px 7.5px;
+	border: none;
+	border-radius: 13px;
+	color: #000;
+	font-weight: 500;
+	font-size: 1em;
+    margin-bottom: 5px;
+	box-shadow: -3px 7px 10px rgba(210,0,0,9);
+	padding-top: 6px;
+	margin-top: 8px;
+	color: #fff;
+}
+
+.areaButton{
+    background-color: white;
+    padding: 1vh;
+    padding-top: 0vh;
+}
+
+.iconsPagDisp{
+    background-color: white;
+}
+
+.iconsPagDisp img{
+    max-width: 100%;
+}
+
+.Espaco{
+    margin-bottom: 2vh;
+}

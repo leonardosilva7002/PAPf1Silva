@@ -1,0 +1,98 @@
+.divisao{
+    width: 100%;
+    height: auto;
+	background: #ff351b;
+	outline: none;
+	border: none;
+    margin-top: 7vh;
+    margin-bottom: 10vh;
+    padding: 2vh 0vh;
+}
+
+.corpoDiv{
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+    width: 100%;
+    height: auto;
+    padding: 2vh 0vh;
+	background: #131313;
+	outline: none;
+	border: none;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.conteudo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    height: auto;
+}
+
+/*.cards{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}*/
+
+.conteudo a{
+    text-decoration: none;
+}
+
+.carta{
+    display: flex; 
+    flex-direction: column;
+    border: 1px solid;
+    border-color: #131313;
+    margin-top: 1.5rem;
+    transition: transform 0.3s;
+}
+
+.carta:hover { 
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
+
+.carta img{
+    width: 100%;
+}
+
+.inf{
+    padding: 1%;
+    font-size: 0.9em;
+    height: 120px;
+    background: white;
+    transition: 1s;
+    color: black;
+    min-height: 170px;
+    height: auto;
+    /*background: #ff351b;*/
+}
+
+.inf p{
+    text-align: justify;
+}
+
+.imagemJogo:hover, .carta:hover{
+    .inf{
+        background: #ff351b;
+	    transition: .5s;
+        color: white;
+    }
+}
+
+.inf:hover{
+    background: #ff351b;
+	transition: .5s;
+    color: white;
+}
+
+.linha{
+    border: none;
+    border-top: 2px dashed #555;
+    margin: 5px 0px;
+}

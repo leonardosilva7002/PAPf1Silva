@@ -1,0 +1,35 @@
+.footer
+{
+    background: #ff351b;
+    height: auto;
+    margin-top: 2vh;
+    padding-top: 3vh;
+}
+
+.corpoFooter
+{
+    background: #131313;
+    padding: 5vh;
+    height: auto;
+}
+
+.corpoFooter table{
+    width: 100%;
+    color: white;
+}
+
+.corpoFooter a{
+    color: #ff351b;
+    transition: 1s;
+    text-decoration: none;
+}
+
+.corpoFooter a:hover{
+    color: #ffffff;
+    transition: .5s;
+    text-decoration: none;
+}
+
+.corpoFooter img{
+    max-width: 100%;
+}

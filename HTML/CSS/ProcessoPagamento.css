@@ -1,0 +1,75 @@
+body{
+    background-color: whitesmoke;
+}
+
+h2{
+    text-align: center;
+    margin: 2vh 0vh;
+}
+
+.mbwaydiv, .crdtcd{
+    background-color: white;
+    border-radius: 25px;
+    padding: 2vh;
+    padding-bottom: 0vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mbwaydiv img, .crdtcd img{
+    max-width: 100px;
+    margin-bottom: 2vh;
+}
+
+.crdtcd{
+    margin-top: 2vh;
+}
+
+.mbwaydiv .mais
+{
+	position: relative;
+	width: 30%;
+	background: #ff351b;
+	outline: none;
+	padding: 13px 10px 7.5px;
+	border: none;
+	border-radius: 13px;
+	color: #000;
+	font-weight: 500;
+	font-size: 1em;
+	box-shadow: 3px 1px 10px rgba(210,0,0,9);
+	padding-top: 6px;
+	color: #fff;
+}
+
+.crdtcd .mais
+{
+	position: relative;
+	width: 40%;
+	background: #ff351b;
+	outline: none;
+	padding: 13px 10px 7.5px;
+	border: none;
+	border-radius: 13px;
+	color: #000;
+	font-weight: 500;
+	font-size: 1em;
+    margin-bottom: 5px;
+	box-shadow: -3px 7px 10px rgba(210,0,0,9);
+	padding-top: 6px;
+    margin-bottom: 2vh;
+	color: #fff;
+}
+
+.fundoBranco{
+    background-color: white;
+    padding: 1vh;
+    color: black;
+}
+
+.titulo{
+    background-color: white;
+    padding: 1vh;
+    color: black;
+}

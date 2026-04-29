@@ -1,0 +1,50 @@
+.vermelho{
+    width: 100%;
+    background-color: #ff351b;
+    padding: 2vh 0vh;
+    margin: 5vh 0vh;
+}
+
+.corpo{
+    width: 100%;
+    height: auto;
+    background-color: #131313;
+    color: white;
+    padding: 5vh;
+}
+
+.imgLoja{
+    max-width: 100%;
+    border-radius: 13px;
+}
+
+.irLoja
+{
+    position: relative;
+	width: 100%;
+	background: #ff351b;
+	outline: none;
+	padding: 13px 10px 7.5px;
+	border: none;
+	border-radius: 13px;
+	color: #000;
+	font-weight: 500;
+	font-size: 1em;
+    margin-bottom: 5px;
+	box-shadow: -3px 7px 10px rgba(210,0,0,9);
+	padding-top: 6px;
+	margin-top: 8px;
+	color: #fff;
+}
+
+.h1{
+    text-align: center;
+}
+
+.imgLoja, .desLoja{
+    margin-top: 2vh;
+}
+
+.desLoja{
+    text-align: justify;
+}

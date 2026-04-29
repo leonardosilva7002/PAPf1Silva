@@ -1,0 +1,114 @@
+::-webkit-scrollbar
+{
+	width: 13px;
+}
+
+::-webkit-scrollbar-thumb
+{
+	background: #ff351b;
+	border-radius: 50px;
+}
+
+::-webkit-scrollbar-track
+{
+	background: #131313;
+}
+
+.Espaco{
+	height: 7vh;
+	border-radius: 3px;
+	background: center / cover url("../IMAGES/Espaco.jpg");
+}
+
+.Espaco1{
+	height: 7vh;
+	border-radius: 3px;
+	background: center / cover url("../IMAGES/Espaco.jpg");
+}
+
+hr{
+	border: none;
+    border-top: 2px dashed #555;
+  }
+
+.botao-flutuante {
+	text-decoration: none;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 60px;
+      height: 60px;
+      background-color: #ff351b;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      font-size: 24px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      transition: background-color 0.3s;
+    }
+
+    .botao-flutuante:hover {
+      background-color: #131313;
+    }
+
+  .botao-flutuante-loja {
+	    text-decoration: none;
+      width: 60px;
+      height: 60px;
+      color: white;
+      border: 2px dashed white;
+      border-radius: 50%;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 1);
+      font-size: 24px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      transition: background-color 0.3s;
+        animation: bounce 1.5s infinite ease-in-out;
+
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    @keyframes bounce {
+  0%, 100% {
+    transform: translateY(5);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.botao-flutuante-carrinho {
+	text-decoration: none;
+      position: fixed;
+      bottom: 100px;
+      right: 20px;
+      width: 60px;
+      height: 60px;
+      background-color: #ff351b;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+      font-size: 24px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+      transition: background-color 0.3s;
+    }
+.botao-flutuante-carrinho img{
+  max-width: 40px;
+}
+.botao-flutuante-carrinho:hover {
+  background-color: #131313;
+}

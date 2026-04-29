@@ -1,0 +1,26 @@
+body{
+    background-color: whitesmoke;
+    height: 100vh;
+}
+
+.informacao{
+    background-color: white;
+    padding: 1vh;
+    margin-bottom: 2vh;
+}
+
+.informacao img{
+    max-width: 100%;
+}
+
+.Parte1{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-areas: "d1 d2";
+}
+
+.curiosidades{
+    background-color: white;
+    padding: 1vh;
+    margin: 2vh 0vh;
+}
