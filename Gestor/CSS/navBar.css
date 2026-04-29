@@ -1,0 +1,13 @@
+.barra {
+    background: #ff351b;
+    height: 2vh;
+    z-index: 98;
+    position: fixed; 
+    top: 8vh; 
+    width: 100%; 
+}
+
+.sectionForNavbar{
+	width: 100%;
+	height: 9vh;
+}

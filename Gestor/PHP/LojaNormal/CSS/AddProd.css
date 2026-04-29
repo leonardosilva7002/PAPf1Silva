@@ -1,0 +1,93 @@
+body{
+    background-color: whitesmoke;
+    height: 100vh;
+}
+
+.area{
+    background-color: white;
+}
+
+.InfProduct{
+    background-color: #ff351b;
+    padding: 0vh 2vh;
+}
+
+.corpo{
+    background-color: #131313;
+    padding: 5vh;
+    color: white;
+}
+
+
+.cancelar{
+    position: relative;
+	width: 100%;
+	background: #f0ff1b;
+	outline: none;
+	padding: 13px 10px 7.5px;
+	border: none;
+	border-radius: 13px;
+	font-weight: 500;
+	font-size: 1em;
+    margin-bottom: 5px;
+	box-shadow: -3px 7px 10px rgba(210,210,0,9);
+	padding-top: 6px;
+	margin-top: 8px;
+	color: #000;
+    transition: 1s;
+  }
+
+.confirm{
+    position: relative;
+	width: 100%;
+	background: #36ff1b;
+	outline: none;
+	padding: 13px 10px 7.5px;
+	border: none;
+	border-radius: 13px;
+	font-weight: 500;
+	font-size: 1em;
+    margin-bottom: 5px;
+	box-shadow: -3px 7px 10px rgba(0,210,0,9);
+	padding-top: 6px;
+	margin-top: 8px;
+	color: #000;
+    transition: 1s;
+  }
+
+  input, textarea{
+    margin: 0vh 0vh 2vh;
+    position: relative;
+	width: 100%;
+	background: #333;
+	border: none;
+	outline: none;
+	padding: 10px 7.5px;
+	border-radius: 4px;
+	color: #fff;
+	font-weight: 500;
+	font-size: 1em;
+}
+
+.Espaco{
+    margin: 2vh 0vh;
+}
+
+.imagem-upload {
+    background: #111;
+    padding: 20px;
+    border: 2px dashed #ff5722;
+    text-align: center;
+    color: white;
+}
+.imagem-upload img {
+    max-width: 100%;
+    margin-top: 10px;
+    display: none;
+}
+.imagem-upload label {
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}

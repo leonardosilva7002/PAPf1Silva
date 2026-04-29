@@ -1,0 +1,135 @@
+body{
+    background-color: whitesmoke;
+    height: 100vh;
+}
+.row img{
+    width: 100%;
+}
+
+.iconImg{
+    max-width: 100px;
+    height: 7vh;
+}
+
+.fundoBranco, .adicionar{
+    background-color: white;
+  }
+
+.fundoBranco{
+    padding: 2vh;
+    border-radius: 20px;
+  }
+
+.adicionar{
+    padding: 5vh 2vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    scale: 1;
+    transition: 1s;
+  }
+
+.adicionar:hover{
+    scale: 1.1;
+    transition: .5s;
+}
+
+.adicionar img{
+    width: 50px;
+  }
+
+a{
+    text-decoration: none;
+    color: black;
+  }
+
+.Espaco{
+    margin: 2vh 0vh;
+}
+
+.cardProduct{
+    background-color: white;
+    margin-bottom: 2vh;
+    padding: 1vh;
+    transition: 1s;
+    border-radius: 5px;
+}
+
+.cardProduct:hover{
+    box-shadow: 0 5px 15px #555;
+	transition: .5s;
+}
+
+.editar{
+    position: relative;
+	width: 100%;
+	background: #41ff1b;
+	outline: none;
+	padding: 13px 10px 7.5px;
+	border: none;
+	border-radius: 13px;
+	font-weight: 500;
+	font-size: 1em;
+    margin-bottom: 5px;
+	box-shadow: -3px 7px 10px rgba(0,210,0,9);
+	padding-top: 6px;
+	margin-top: 8px;
+	color: #fff;
+    transition: 1s;
+  }
+
+.editar:hover{
+    position: relative;
+	width: 100%;
+	background: #131313;
+	outline: none;
+	padding: 13px 10px 7.5px;
+	border: none;
+	border-radius: 13px;
+	font-weight: 500;
+	font-size: 1em;
+    margin-bottom: 5px;
+	box-shadow: -3px 7px 10px rgba(210,0,0,9);
+	padding-top: 6px;
+	margin-top: 8px;
+	color: #fff;
+    transition: .5s;
+  }
+
+.eliminar{
+    position: relative;
+	width: 100%;
+	background: #ff351b;
+	outline: none;
+	padding: 13px 10px 7.5px;
+	border: none;
+	border-radius: 13px;
+	font-weight: 500;
+	font-size: 1em;
+    margin-bottom: 5px;
+	box-shadow: -3px 7px 10px rgba(210,0,0,9);
+	padding-top: 6px;
+	margin-top: 8px;
+	color: #fff;
+    transition: 1s;
+  }
+
+.eliminar:hover{
+    position: relative;
+	width: 100%;
+	background: #131313;
+	outline: none;
+	padding: 13px 10px 7.5px;
+	border: none;
+	border-radius: 13px;
+	font-weight: 500;
+	font-size: 1em;
+    margin-bottom: 5px;
+	box-shadow: -3px 7px 10px rgba(210,0,0,9);
+	padding-top: 6px;
+	margin-top: 8px;
+	color: #fff;
+    transition: .5s;
+  }

@@ -1,0 +1,29 @@
+body{
+    background: whitesmoke;
+	height: 87vh;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.image, .image img{
+    max-width: 100%;
+}
+
+.cardSeccao{
+    background-color: white;
+}
+
+.cardSeccao:hover {
+    transform: scale(1.05);
+}
+
+.descricao{
+    padding: 2px;
+}
+
+.Espaco{
+    margin: 2vh 0vh;
+}

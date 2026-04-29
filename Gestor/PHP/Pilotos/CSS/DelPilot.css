@@ -1,0 +1,69 @@
+body{
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+.area{
+    padding: 2vh 2vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    scale: 1;
+    transition: 1s;
+    background-color: white;
+  }
+
+  .alerta{
+    width: 50px;
+}
+
+.imgProd{
+    width: 250px;
+    margin: 1vh 0vh;
+  }
+
+.cancelar{
+    position: relative;
+	width: 100%;
+	background: #ff351b;
+	outline: none;
+	padding: 13px 10px 7.5px;
+	border: none;
+	border-radius: 13px;
+	font-weight: 500;
+	font-size: 1em;
+    margin-bottom: 5px;
+	box-shadow: -3px 7px 10px rgba(210,0,0,9);
+	padding-top: 6px;
+	margin-top: 8px;
+	color: #000;
+    transition: 1s;
+  }
+
+.confirm{
+    position: relative;
+	width: 100%;
+	background: #36ff1b;
+	outline: none;
+	padding: 13px 10px 7.5px;
+	border: none;
+	border-radius: 13px;
+	font-weight: 500;
+	font-size: 1em;
+    margin-bottom: 5px;
+	box-shadow: -3px 7px 10px rgba(0,210,0,9);
+	padding-top: 6px;
+	margin-top: 8px;
+	color: #000;
+    transition: 1s;
+  }
+
+  .Espaco{
+    margin: 2vh 0vh;
+}
+
+.area a{
+    width: 100%;
+}
